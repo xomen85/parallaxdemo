@@ -40,4 +40,27 @@ body, html {
 h2{
   text-align:center;
 }
+@media screen and (max-width: 720px){ 
+ /*changes reflects on screen with a width of 720px and below*/
+  .bgimg1 {
+   height: 37.5rem;
+   width: 37.0rem;
+  }
+  .caption{
+   display:flex;
+   margin:auto;
+   width:16%;
+   color: #0d6934;
+   background-color:white;
+   font-size:16px;
+  }
+  .bgimg2{
+    height:37.0rem;
+    width:37.0rem;
+  }
+  .bgimg3{
+    height:37.5rem;
+    width:37.0rem;
+  }
+}
 
